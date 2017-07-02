@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josegabriel.chatultimo.ActivityMensajes"
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_weight="4"
+android:orientation="vertical">
+
+<Button
+    android:id="@+id/datos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorFondoBotones"
+    android:text="gffn"
+    android:textAlignment="textStart"
+    android:textColor="@color/colorTextoBotones"
+    android:textSize="20sp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_marginTop="15dp"
+android:layout_weight="0"
+android:orientation="horizontal">
+
+<EditText
+    android:id="@+id/ediMen"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="3"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text=""
+    android:textColor="@color/colorTexto">
+
+</EditText>
+
+<Button
+    android:id="@+id/enviar"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@color/colorFondoBotones"
+    android:text="Enviar"
+    android:textColor="@color/colorTextoBotones" />
+</LinearLayout>
+
+    </LinearLayout>
